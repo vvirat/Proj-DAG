@@ -3,4 +3,10 @@ public class Vertex {
 
     public Vertex(long id) {
         this.id = id;
-    }}
+    }
+
+    @Override
+    public String toString() {
+        return "V" + id;
+    }
+}
